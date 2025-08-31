@@ -9,7 +9,7 @@ import { AuthSchema } from './schemas/auth.schema';
     MongooseModule.forFeature([
       {
         name: 'Auth',
-        schema: AuthSchema, // Assuming AuthSchema is imported from the appropriate file
+        schema: AuthSchema,
       },
     ]),
   ],
