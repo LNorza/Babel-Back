@@ -6,16 +6,13 @@ export class User {
   username: string;
 
   @Prop({ required: true })
-  password: string;
-
-  @Prop({ required: true })
   email: string;
 
   @Prop({ required: true })
-  firstName: string;
+  password: string;
 
-  @Prop({ required: false })
-  lastName: string;
+  @Prop({ required: true })
+  name: string;
 
   @Prop({ default: Date.now })
   createdAt: Date;

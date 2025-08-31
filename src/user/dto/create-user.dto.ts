@@ -21,10 +21,5 @@ export class CreateUserDto {
   @ApiProperty()
   @IsString()
   @IsNotEmpty()
-  firstName: string;
-
-  @ApiProperty()
-  @IsOptional()
-  @IsString()
-  lastName: string;
+  name: string;
 }
